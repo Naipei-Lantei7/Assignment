@@ -1,0 +1,19 @@
+/* ensuring the body covers the whole space of the html page */
+body{
+    height: 100%;
+    width: 100%;
+    background-color: wheat;
+}
+/* styling our h1 with a red color */
+h1{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    font-weight: 500;
+    text-decoration: underline;
+}
+/* coloring h2 with brown color */
+h2{
+    color: brown;
+    text-decoration: underline;
+}

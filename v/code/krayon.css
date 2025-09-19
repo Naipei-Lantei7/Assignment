@@ -1,0 +1,15 @@
+body{
+    background-color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+
+    background-color: black;
+    color: bisque;
+    margin-bottom: 2rem;
+    padding: 5rem;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
