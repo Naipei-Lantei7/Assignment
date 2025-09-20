@@ -1,3 +1,4 @@
+/* making our html file 100% high and 100% wide */
 html{
     height: 100%;
     width: 100%;
@@ -10,19 +11,31 @@ body{
     /* ensuring the body covers the whole html file */
     height: 100%;
     width: 100%;
+    /* add a ackground color for contrast and styling */
     background-color: rgb(138, 137, 137);
+    /* hide any overflow horizantally or in the x-axis */
     overflow-x: hidden;
 }
+/* styling the header */
 .header{
+    /* add a dark or black background color */
     background-color: black;
+    /* add a light color for the text for visibility */
     color: white;
+    /* add a slight padding for spacing  */
     padding: 7%;
+    /* add a marging from the bottom to make the section stand out */
     margin-bottom: 2%;
+    /* align the text at the centre of the section */
     text-align: center;
+    /* have a large font size for cotrast */
     font-size: xx-large;
+    /* add a different font family to distinguish from the rest of the text in the page */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+/* styling our block containers */
 .block{
+    /* set the height and width of the container in pixels */
     height: 550px;
     width: 500px;
     display: contents;
@@ -38,18 +51,29 @@ body{
         transform: translateY(-700%);
     }
 } */
+ /* styling the images in the block containers */
 .block img{
+    /* making the image almost as high and wide as the parent container */
     height: 350px;
     width: 350px;
+    /* avoid distortion of the images by using the object fit cover style */
     object-fit: cover;
 }
+/* styling our mini headings of the block containers */
 .block h3{
+    /* underline the text to stand out as titles */
     text-decoration: underline;
+    /* add color for contrast */
     color: rgb(27, 3, 3);
+    /* making the font size as large as possible but not too large for visiility */
     font-size: x-large;
 }
+/* styling the paragraphs of the block containers */
 .block p{
+    /* indent the first line */
     text-indent: 10px;
+    /* add a different font family for specifity of the paragraphs */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* space the text from the left by padding */
     padding-left: 7px;
 }
