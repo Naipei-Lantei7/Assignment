@@ -2,9 +2,9 @@
 ## Author
 Naipei T. M. Lantei
 ## Description
-This is a simple website that walks you through the life of the goat of formula one,Lewis Hamilton.
-With not just text but pictorial walkthrough of his journey to become the greatest of all time,from
-his ambitions and dreams to him achieving everything he wanted. Buckle up.
+This is a photography website built as part of my independent project.  
+The site showcases the legacy of Lewis Hamilton through photos, captions, and a short biography.  
+It demonstrates my skills in HTML, CSS, and GitHub.
 ### Objective 
 well the website is a documentary of lewis hamilton,making sure everything is done as per the
 instructions of the assignment,I should be able to achieve the following from the site:
