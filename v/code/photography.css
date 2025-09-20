@@ -1,0 +1,55 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+/* removing all margins in the file */
+*{
+    margin: 0;
+}
+body{
+    /* ensuring the body covers the whole html file */
+    height: 100%;
+    width: 100%;
+    background-color: rgb(138, 137, 137);
+    overflow-x: hidden;
+}
+.header{
+    background-color: black;
+    color: white;
+    padding: 7%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.block{
+    height: 550px;
+    width: 500px;
+    display: contents;
+    /* padding-bottom: 5px; */
+    /* animation: scrollDown 5s linear initial; */
+}
+/*using keyframes to enable the animation to take place*/
+/* @keyframes scrollDown {
+    0%{
+        transform: translateY(0%);
+    }
+    100%{
+        transform: translateY(-700%);
+    }
+} */
+.block img{
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+}
+.block h3{
+    text-decoration: underline;
+    color: rgb(27, 3, 3);
+    font-size: x-large;
+}
+.block p{
+    text-indent: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 7px;
+}
