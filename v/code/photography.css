@@ -12,16 +12,16 @@ body{
     height: 100%;
     width: 100%;
     /* add a ackground color for contrast and styling */
-    background-color: rgb(138, 137, 137);
+    background-color: #c6c6c6;
     /* hide any overflow horizantally or in the x-axis */
     overflow-x: hidden;
 }
 /* styling the header */
 .header{
     /* add a dark or black background color */
-    background-color: black;
+    background-color: #00a19c;
     /* add a light color for the text for visibility */
-    color: white;
+    color: #111;
     /* add a slight padding for spacing  */
     padding: 7%;
     /* add a marging from the bottom to make the section stand out */
@@ -40,7 +40,7 @@ body{
     padding-left: 5%;
     padding-bottom: 3%;
     text-indent: 15px;
-    /* background-color: aqua; */
+    color: #80142b;
 }
 /* styling our block containers */
 .block{
@@ -63,8 +63,8 @@ body{
  /* styling the images in the block containers */
 .block img{
     /* making the image almost as high and wide as the parent container */
-    height: 350px;
-    width: 350px;
+    height: 450px;
+    width: 450px;
     /* avoid distortion of the images by using the object fit cover style */
     object-fit: cover;
     border-radius: 25%;
@@ -75,10 +75,12 @@ body{
 .block h3{
     /* underline the text to stand out as titles */
     text-decoration: underline;
+    text-decoration-color: #111;
     /* add color for contrast */
-    color: rgb(27, 3, 3);
+    color: #111;
     /* making the font size as large as possible but not too large for visiility */
     font-size: x-large;
+    font-weight: 700;
 }
 /* styling the paragraphs of the block containers */
 .block p{
@@ -88,4 +90,8 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* space the text from the left by padding */
     padding-left: 7px;
+    /* add color  */
+    color: #80142b;
+    /* increse font size for easy readabilty */
+    font-size: x-large;
 }
