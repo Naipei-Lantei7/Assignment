@@ -26,3 +26,4 @@ p-where I write the captions of the images using the parapgraph element
 The images in the site should have images in a colunm format with the sub-heading above them and captions below them.
 Color pallatte similar to the mercedes livery of 2021
 Short,simle to understand and everything done per as the instructions.
+Addition of the design file of the webpage
