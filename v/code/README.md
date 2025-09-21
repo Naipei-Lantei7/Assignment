@@ -5,9 +5,9 @@ Naipei T. M. Lantei
 This is a photography website built as part of my independent project.  
 The site showcases the legacy of Lewis Hamilton through photos, captions, and a short biography.  
 It demonstrates my skills in HTML, CSS, and GitHub.
-### Objective 
-well the website is a documentary of lewis hamilton,making sure everything is done as per the
-instructions of the assignment,I should be able to achieve the following from the site:
+### Setup instructions
+well the website should be well documented on a readme file.
+here are some of the instructions given
 1. Submit the work before Monday 22/09/2025
 2. Check out everything in the assignment list eg:
     * Make the page attractive and authentic
@@ -16,4 +16,11 @@ instructions of the assignment,I should be able to achieve the following from th
     * Use the knowledge learnt from the previous lesssons
     * Have atleast 20+ commits on your work
     and many others
-3. 
+### Page layout
+.header-class named header where the heading is displayed
+.biography-class where the biography of the website is written
+.block-container class where our images,sub-headings of the images and the captions will be placed
+h3 -the sub-heading of the images,acts as an intriduction of the image displayed
+p-where I write the captions of the images using the parapgraph element
+### Page outcome
+The images in the site should
