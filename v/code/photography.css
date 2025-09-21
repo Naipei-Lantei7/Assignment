@@ -95,3 +95,23 @@ body{
     /* increse font size for easy readabilty */
     font-size: larger;
 }
+/* styling our submit form */
+.feedback{
+    background-color: #00a19c;
+    border-radius: 10px;
+    /* margin: 30px; */
+    padding-left: 20px;
+    border: 2px solid #444;
+}
+/* styling our textarea */
+.feedback textarea{
+    width: 550px;
+    height: 150px;
+    border: 1px solid #80142b;
+    background-color: #c6c6c6;
+    border-radius: 10px;
+}
+/* styling the submit button */
+.feedback button{
+    background-color: aquamarine;
+}

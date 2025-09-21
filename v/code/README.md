@@ -23,4 +23,4 @@ here are some of the instructions given
 h3 -the sub-heading of the images,acts as an intriduction of the image displayed
 p-where I write the captions of the images using the parapgraph element
 ### Page outcome
-The images in the site should
+The images in the site should have images in a colunm format with the sub-heading above them
