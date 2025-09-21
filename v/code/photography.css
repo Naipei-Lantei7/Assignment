@@ -63,8 +63,8 @@ body{
  /* styling the images in the block containers */
 .block img{
     /* making the image almost as high and wide as the parent container */
-    height: 450px;
-    width: 450px;
+    height: 400px;
+    width: 400px;
     /* avoid distortion of the images by using the object fit cover style */
     object-fit: cover;
     border-radius: 25%;
@@ -93,5 +93,5 @@ body{
     /* add color  */
     color: #80142b;
     /* increse font size for easy readabilty */
-    font-size: x-large;
+    font-size: larger;
 }
