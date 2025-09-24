@@ -1,31 +1,151 @@
-# THE LEGACY OF LEWIS HAMILTON 44
-## Author
-Naipei T. M. Lantei
-## Description
-This is a photography website built as part of my independent project.  
-The site showcases the legacy of Lewis Hamilton through photos, captions, and a short biography.  
-It demonstrates my skills in HTML, CSS, and GitHub.
-### Setup instructions
-well the website should be well documented on a readme file.
-here are some of the instructions given
-1. Submit the work before Monday 22/09/2025
-2. Check out everything in the assignment list eg:
-    * Make the page attractive and authentic
-    * Use of pictures to tell a story or journey
-    * Use an original stylesheet 
-    * Use the knowledge learnt from the previous lesssons
-    * Have atleast 20+ commits on your work
-    and many others
-### Page layout
-.header-class named header where the heading is displayed
-.biography-class where the biography of the website is written
-.block-container class where our images,sub-headings of the images and the captions will be placed
-h3 -the sub-heading of the images,acts as an intriduction of the image displayed
-p-where I write the captions of the images using the parapgraph element
-### Page outcome
-The images in the site should have images in a colunm format with the sub-heading above them and captions below them.
-Color pallatte similar to the mercedes livery of 2021
-Short,simle to understand and everything done per as the instructions.
-Addition of the design file of the webpage
-Some images from the site that are present
-![a picture of lewis](/Assignment/images/lewis-hamilton-2025-met-gala-050525-d072191a2b074c2cb32c7c06ff20ebe6.jpg)
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="photography.css" rel="stylesheet">
+        <title>The LH44 Legacy</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>THE LEGACY OF LEWIS HAMILTON 44</h1>
+        </div>
+        <!-- biography part of the site -->
+        <div class="biography">
+            <p>This site is a mini photo documentary of Sir Lewis Carl Davidson Hamilton's journey.<br>
+            From a kid with dreams and ambitions of joining <strong>Formula One</strong> to becoming the greatest <br>
+            driver of all time. Each photo is paired with a moment that defines who he is, on and off<br>
+            track.</p>
+        </div>
+        <!-- photographic part of the site with captions,images and sub-headings -->
+        <div class="block">
+            <h3>A Kid With A Dream</h3>
+            <img src="/Assignment/images/784ec0ac-untitled-design-2022-07-28t163120.844.webp" 
+            alt="a picture of young hamilton">
+            <p>Young Lewis driving his go kart in a race competition.He already knew what he wanted to be in life</p>
+        </div>
+        <div class="block">
+            <h3>Young Victories</h3>
+            <img src="/Assignment/images/images (4).jpeg" alt="a picture of lewis">
+            <p>Hamilton was born a winner,even in his karting days he used to triumph.From being born<br>
+            and raised in stevanage,he is a proud Briton.Always carrying his country's flag whenever he wins.</p>
+        </div>
+        <div class="block">
+            <h3>Ron Dennis</h3>
+            <img src="/Assignment/images/59c496cc1c5a4094bdd995e504f4991e.jpg" alt="a picture of ham">
+            <p>Hamilton had won a very major race in his karting days where he met Ron Dennis,the CEO of<br>
+            Mclaren Formula One team.Hamilton said he wanted to drive for the team and the CEO gave him his<br>
+            his number.That was the birth of his dream of becoming an F1 driver.</p>
+        </div>
+        <div class="block">
+            <h3>Fomula One Dream Comes True</h3>
+            <img src="/Assignment/images/795f05ada32db2bd1ee98b492834330fY29udGVudHNlYXJjaGFwaSwxNzE4MDA1NzM3-2.4307020.avif" 
+            alt="a picture of hamilton">
+            <p>Hamilton on his first day as a Mclaren Formula One Team Driver after signing his multi-year contract<br>
+            with the team in 2007. Making him the first ever black fromula one driver.</p>
+        </div>
+        <div class="block">
+            <h3>First Of Many Victories</h3>
+            <img src="/Assignment/images/images (5).jpeg" alt="a picture of hamilton and his dad">
+            <p>His first win at Montreal,Canada Grand Prix with his father. As a rookie,it is not<br>
+            expected of you to join the sport and become a winner but Hamilton proved everyone wrong.</p>
+        </div>
+        <div class="block">
+            <h3>First World Championship</h3>
+            <img src="/Assignment/images/images (2).jpeg" alt="a picture of lewis">
+            <p>This is the moment Lewis made history becoming the youngest world champion<br>
+            at that time in 2008. His second year in the sport.</p>
+        </div>
+        <div class="block">
+            <h3>Starting The Mercedes Era</h3>
+            <img src="/Assignment/images/Lewis-Hamilton-Australian-GP-2013-text.webp" alt="an image">
+            <p>Hamilton joins mercedes Formula One Team in 2014</p>
+        </div>
+        <div class="block">
+            <h3>First Championship With Mercedes</h3>
+            <img src="/Assignment/images/25MOTORSPORTS-image-articleLarge.webp" alt="an image">
+            <p>Hamilton won his second world title in his second season in mercedes making him stand <br>
+            Fernanndo Alonso,a two time world champion and also his former teammate in Mclaren,2007.</p>
+        </div>
+        <div class="block">
+            <h3>Seven Time World Champion</h3>
+            <img src="/Assignment/images/2937217-60300309-640-480.jpg" alt="a picture of lewis">
+            <p>In 2020,during the Turkish Grand Prix,Hamilton put himself in the record books alongside<br>
+            Michael Schumacher as  seven world time champion.</p>
+        </div>
+        <div class="block">
+            <h3>The Activist</h3>
+            <img src="/Assignment/images/download (4).jpeg" alt="a pic of ham">
+            <p>Apart from being an F1 driver,Lewis is also someone who stands for what he belives is right.<br>
+            He fought for the end of racism in the sport as he used to be a victim and in the world.</p>
+        </div>
+        <div class="block">
+            <h3>The Purple Helmet</h3>
+            <img src="/Assignment/images/formula-1-lewis-hamilton-black-2.jpg" alt="a picture">
+            <p>As part of the F1 culture,each driver has their very own designed helmet.This <br>
+            Purple hemlmet is one of his famous helmets as he worn it when he worn his seventh<br>
+            title and his fight against racism.</p>
+        </div>
+        <div class="block">
+            <h3>Black Lives Matter</h3>
+            <img src="/Assignment/images/72fc8aa6584a0153954ca8ec040bfd76.avif" alt="an image of ham">
+            <p>Hamilton didn't quit to stand up for the rights of black people all over the world.<br>
+            A sign of bravery from the seven-time world champion.</p>
+        </div>
+        <div class="block">
+            <h3>The Fashionist</h3>
+            <img src="/Assignment/images/lewis-hamilton-arrives-in-the-paddock-during-previews-ahead-v0-od4q1et3pnaf1.jpg" 
+            alt="an image of lewis">
+            <p>Lewis is also known for his fashion sense and make his paddock entries as his own runway.</p>
+        </div>
+        <div class="block">
+            <h3>Serving Looks</h3>
+            <img src="/Assignment/images/15acb8344f8dbda7_GettyImages-1252376266.webp" alt="and image of lewis">
+            <p>Hamilton collaborated with Tommy Hilfigher and other designer companies.He serves his outfits<br>
+            everytime he walks in the paddock.</p>
+        </div>
+        <div class="block">
+            <h3>The icon</h3>
+            <img src="/Assignment/images/lewis-hamilton-2025-met-gala-050525-d072191a2b074c2cb32c7c06ff20ebe6.jpg"
+            alt="a picture of lewis">
+            <!-- <img src="/Assignment/images/2eptZYL9CC9hWaGdzuLyeJ.jpg" alt="an image of ham"> -->
+            <p>Hamilton has made his presence and success felt across the world,being the only driver<br>
+            in formula one to attend the met gala several times</p>
+        </div>
+        <div class="block">
+            <h3>End Of An Era</h3>
+            <img src="/Assignment/images/2024-12-08T150813Z_533419546_UP1EKC81559Y6_RTRMADP_3_MOTOR-F1-ABUDHABI-scaled.jpg"
+            alt="an image of hamilton and his car">
+            <p>In 2024,Hamilton signed a multiyear contract with ferrari and set to leave Mercedes.<br>
+            On the last race of the 2024 season he had an emotional race as it was his last with the<br>
+            team he build an empire with for 11 years. His time with the team is one for the books.</p>
+        </div>
+        <div class="block">
+            <h3>Start Of A New Era</h3>
+            <img src="/Assignment/images/hamilton_Ferrari_20.01.2025-1737381966.webp" alt="an image">
+            <p>In 2025,Hamilton joined Scuderia Ferrari to complete his final career journey.This is him in<br>
+            Ferrari HQ at Maranello,Italy.</p>
+        </div>
+        <div class="block">
+            <h3>Forza Ferrari</h3>
+            <img src="/Assignment/images/78c92aead4bd4b45b5d6910ef0ae18d2.png" alt="an image">
+            <p>Enjoying himself in red. Driving for the team every F1 driver dreams of driving for.</p>
+        </div>
+        <!-- add the submit form -->
+        <div class="feedback">
+            <h3>Did you enjoy walking through the journey of Sir Lewis?</h3>
+            <form>
+                <label>
+                    <input type="radio" name="enjoy" value="yes"> Yes
+                </label><br>
+                <label>
+                    <input type="radio" name="enjoy" value="no"> No
+                </label><br><br>
+                <label>Any thoughts?</label><br>
+                <textarea placeholder="Share your feedback..."></textarea><br>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        
+    </body>
+</html>
