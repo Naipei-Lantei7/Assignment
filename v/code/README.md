@@ -29,4 +29,4 @@ Short,simle to understand and everything done per as the instructions.
 Addition of the design file of the webpage
 Some images from the site that are present
 ![a picture of lewis](/Assignment/images/lewis-hamilton-2025-met-gala-050525-d072191a2b074c2cb32c7c06ff20ebe6.jpg)
-Chekout The Actual Webpage [the page](photography.html)
+Chekout The Actual Webpage [[the page](photography.html)]
